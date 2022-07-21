@@ -2,9 +2,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Main",
+            "label": "Build",
             "type": "shell",
-            "command": "g++ -g main.cpp -o main.out",
+            "command": "colcon build",
             "group": {
                 "kind": "build",
                 "isDefault": true
